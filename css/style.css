@@ -1,0 +1,291 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background: url("../image/porfolio2.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 100%;
+}
+
+
+.container {
+	width: 100%;
+	height: 15%;
+	background-color: #33384c;
+
+}
+
+ .name {
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	padding-top: 35px; 
+ }
+
+ .name h4 {
+ 	color: #fff;
+ 	font-weight: 700;
+ 	letter-spacing: 0.1em;
+ }
+ 
+.background {
+	padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+
+
+.image img {
+	width: 100%;
+}
+
+.introduction {
+	margin-top: 100px;
+	padding: 0 20px 0 20px;
+	z-index: 5;
+	top: 0;
+}
+
+.introduction p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+	font-size: 2.1em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 700px;
+}
+
+
+
+
+
+#home{
+  height:100%;
+  width:100%;
+  color:white;
+}
+#spritzer{
+  background: transparent;
+  background-attachment:fixed;
+  background-size:100%;
+}
+#uberuns{
+  height:600px;
+  width:100%;
+  background:rgba(51,56,76,.9);
+  position:relative;
+}
+#uberuns:after {
+    content:'';
+    height:100%;
+  	width:100%;
+    position:absolute;    
+    left:0;
+    top:0;
+    z-index:-1;
+}
+
+
+
+
+
+
+
+.aboutme {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	margin-top: 80px;
+	border-bottom: 1px solid #eeeeee;
+	padding: 0 20px 0 20px;
+	text-align: center;
+}
+
+.title {
+	padding-bottom: 10px;
+}
+
+.title h2 {
+	font-size: 50px;
+}
+
+.text, .citat {
+	padding-bottom: 30px;
+}
+
+.citat {
+	padding-top: 30px;
+	height: 70px;
+}
+
+
+.text p {
+	font-size: 20px;
+}
+
+/*.aboutme {
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}*/
+
+.aboutme h2, .aboutme p, .title h2, .text p, .citat p{
+	text-align: center;
+	color: white;
+}
+
+
+.citat p {
+	font-style: italic;
+}
+
+
+.naslov {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 50px;
+	color: #45495b;
+}
+
+
+.footer {
+  background:rgba(51,56,76,.9);
+}
+
+.contact {
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.social {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+.social ul {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.social li {
+	display: inline;
+	padding: 0 20px;
+}
+
+.social i {
+	font-size: 30px;
+}
+
+
+
+/*.section4, .section5 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+	margin-top: 20px;
+}*/
+
+
+.section1, .section2, .section3, .section4, .section5 {
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid #33384c;
+}
+
+.section5 {
+	border-bottom: none;
+}
+
+.section1 {
+	height: 100px;
+	margin-top: 40px;
+}
+
+.section2 {
+	height: 220px;
+}
+
+.section3 {
+	height: 200px;
+}
+
+.section4 {
+	height: 150px;
+}
+
+.section5 {
+	height: 160px;
+}
+
+
+/*.info {
+	padding-left: 0px;
+}*/
+
+
+
+
+
+.info ul, .jezik, .skills {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+.info p {
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+
+
+.podatak {
+	margin-bottom: 5px;
+}
+
+
+.poravnjanje {
+	padding-left: 0px;
+}
+
+p.podatak, .expiriance h4, .education h4, .languages h4, .professionalskills h4 {
+	color: #45495b;
+	font-weight: bold;
+}
+
+
+.info p, .intro p{
+	margin-top: 0px;
+}
+
+.intro, .cv {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.expiriance h4, .education h4, .languages h4, .professionalskills h4 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.cvall {
+	padding-bottom: 15px;
+}
+
+.cv p {
+	margin-bottom: 0px;
+}
