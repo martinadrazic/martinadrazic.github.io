@@ -1,0 +1,287 @@
+body {
+	background-color: #E5E2D3;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+	background-color: #E8634E;
+	height: 53px;
+}
+
+.header-top li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	width: 33%;
+	text-align: center;
+	font-size: 17px;
+}
+
+.header-top ul {
+	padding-left: 0px;
+	margin: 15px auto;
+}
+
+.header-top a {
+	color: #E5E2D3;
+}
+
+.header-top {
+	width: 960px;
+    margin: auto;
+}
+
+.content {
+	width: 960px;
+	margin: auto;
+}
+
+.content .row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+.image {
+	width: 100%;
+	height: 500px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.image img {
+	height: 500px;
+	margin: 70px auto 0px;
+}
+
+.image div {
+	position: absolute;
+	bottom: 83px;
+	color: #E8634E;
+	right: 0px;
+	left: 0px;
+}
+
+.colon1 {
+	font-size: 90px;
+}
+
+.colon2 {
+	font-size: 60px;
+}
+
+.colon1, .colon2 {
+	text-align: center;
+}
+
+
+.line {
+    margin: auto;
+}
+
+.about {
+	height: 2px;
+	width: 100%;
+	background-color: #C6C4AD;
+	margin-top: 40px;
+	position: absolute;
+	left: 0px;
+}
+
+.line p {
+	width: 50px;
+	margin:auto;
+	height: 100%;
+	background-color: white;
+	color: #E8634E;
+	position: relative;
+    top: 24px;
+    width: 140px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.button {
+	width: 200px;
+	height: 35px;
+	background-color: #E5E2D3;
+	border: 1px solid #E8634E;
+	margin: 42px auto;
+}
+
+.button:hover {
+	background-color: #E8634E;
+	-webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+.button p {
+	text-align: center;
+	margin: 6px;
+	color: #E8634E;
+}
+
+.button p:hover {
+	color: #E5E2D3;
+}
+
+.button a {
+	color: #E5E2D3;
+	text-decoration: none;
+}
+
+
+.delimiter {
+	width: 30%;
+    height: 1px;
+    background-color: #E8634E;
+    margin: 0px auto;
+}
+
+.text p {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #E8634E;
+	font-size: 15px;
+}
+
+.text h4 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #E8634E;
+}
+
+.line .portfolio {
+	width: 50px;
+	margin:auto;
+	height: 100%;
+	background-color: white;
+	position: relative;
+    top: 24px;
+    width: 200px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.portfolio {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.description {
+	opacity: 0;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	padding-top: 45px;
+}
+
+
+.description:hover {
+	background-color: black;
+	opacity: 0.7;
+	color: white;
+	-webkit-transition: opacity 400ms linear;
+    -moz-transition: opacity 400ms linear;
+    -o-transition: opacity 400ms linear;
+    -ms-transition: opacity 400ms linear;
+    transition: opacity 400ms linear;
+}
+
+
+
+.slika1, .slika2, .slika3 {
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+
+
+.footer {
+	background-color: #E8634E;
+}
+
+
+.line .contact {
+	width: 50px;
+	margin:auto;
+	height: 100%;
+	background-color: #33384c;
+	position: relative;
+    top: 24px;
+    width: 200px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.about-last-line {
+	height: 2px;
+	width: 100%;
+	background-color: #C6C4AD;
+	margin-top: 40px;
+	position: absolute;
+	left: 0px;
+}
+
+.footer-bottom {
+	margin-top: 70px;
+}
+
+.title {
+	font-size: 20px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.left-text, .center, .right-text p {
+	text-align: center;
+}
+
+.left-text a, .icons a {
+	color: #E5E2D3;
+}
+
+.icons {
+	text-align: center;
+}
+
+.mail {
+	color: white;
+	margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.twitter {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.sent-message input {
+	margin-bottom: 6px;
+}
+
+.message-field {
+	padding: 0px;
+}
+
+.message-field div {
+	float: right;
+    padding-top: 6px;
+}
+
+.postnote {
+	text-align: center;
+	margin-top: 60px;
+	color: white;
+}
