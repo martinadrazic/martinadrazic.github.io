@@ -6,7 +6,6 @@ body {
 
 .header {
 	background-color: #E8634E;
-	height: 53px;
 }
 
 .header-top li {
@@ -27,17 +26,13 @@ body {
 	color: #E5E2D3;
 }
 
-.header-top {
-	width:100%;
-    max-width:960px;
-    margin: auto;
+.header-top, .content {
+	width: 100%;
+    max-width: 960px;
+    height: 100%; 
+    margin: 0 auto;
 }
 
-.content {
-	width:100%;
-    max-width:960px;
-	margin: auto;
-}
 
 .content .row {
 	margin-left: 0px;
@@ -47,13 +42,14 @@ body {
 
 .image {
 	width: 100%;
+	height: 500px;
 	margin: 0px auto;
 	position: relative;
 }
 
 .image img {
-	height: 100%;
-	max-width: 53%;
+	max-width:100%;
+	max-height:100%;
 	margin: 70px auto 0px;
 }
 
@@ -66,11 +62,11 @@ body {
 }
 
 .colon1 {
-	font-size: 90px;
+	font-size: 6vW;
 }
 
 .colon2 {
-	font-size: 60px;
+	font-size: 4vW;
 }
 
 .colon1, .colon2 {
@@ -155,6 +151,7 @@ body {
 .text h4 {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 20px;
 	color: #E8634E;
 }
 
@@ -180,11 +177,12 @@ body {
 
 .description {
 	opacity: 0;
-	width: 300px;
-	height: 300px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 	position: absolute;
 	top: 0px;
+	right: 0px;
 	text-align: center;
 	padding-top: 45px;
 }
@@ -243,8 +241,11 @@ body {
 .title {
 	font-size: 20px;
 	margin-bottom: 30px;
+	margin-top: 30px;
 	color: white;
 }
+
+
 
 .left-text, .center, .right-text p {
 	text-align: center;
@@ -269,12 +270,21 @@ body {
 	margin-right: 20px;
 }
 
+.sent-message {
+	padding-right: 2px;
+}
+
 .sent-message input {
 	margin-bottom: 6px;
 }
 
 .message-field {
-	padding: 0px;
+	padding-right: 2px;
+}
+
+.sent-button button {
+	color:#E8634E;
+	margin-top: 10px;
 }
 
 .message-field div {
