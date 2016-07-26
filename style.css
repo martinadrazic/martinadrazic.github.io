@@ -107,7 +107,7 @@ body {
 	margin: 42px auto;
 }
 
-.button:hover {
+.button:hover, .button:focus {
 	background-color: #E8634E;
 	-webkit-transition: background-color 400ms linear;
     -moz-transition: background-color 400ms linear;
@@ -122,7 +122,7 @@ body {
 	color: #E8634E;
 }
 
-.button p:hover {
+.button p:hover, .button p:focus {
 	color: #E5E2D3;
 }
 
@@ -188,7 +188,7 @@ body {
 }
 
 
-.description:hover {
+.description:hover, .description:focus {
 	background-color: black;
 	opacity: 0.7;
 	color: white;
