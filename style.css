@@ -306,16 +306,12 @@ body {
 }
 
 .thank-you {
-	width: 50%;
 	text-align: center;
-	margin: 100px auto;
-	padding: 30px;
 	color: #E8634E;
 }
 
-.thank-you p {
-	margin: 50px;
-	font-size: 3vw;
+.thank-you h1 {
+	margin: 80px;
 }
 
 .thank-you div {
@@ -323,6 +319,7 @@ body {
 }
 
 .thank-you a {
+	font-size: 20px;
 	color: #E8634E;
 	text-decoration: none;
 }
