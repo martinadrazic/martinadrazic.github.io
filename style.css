@@ -54,7 +54,7 @@ body {
 
 .image div {
 	position: absolute;
-	bottom: 83px;
+	bottom: 70px;
 	color: #E8634E;
 	right: 0px;
 	left: 0px;
@@ -201,12 +201,19 @@ body {
 
 
 
-.slika1, .slika2, .slika3 {
+.slika1,
+.slika2,
+.slika3 {
 	padding-left: 10px;
 	padding-right: 10px;
 	position: relative;
 }
 
+.slika1>div,
+.slika2>div,
+.slika3>div {
+	position: relative;
+}
 
 .footer {
 	background-color: #E8634E;
