@@ -306,8 +306,9 @@ body {
 	color: #E8634E;
 }
 
-.thank-you h1 {
+.thank-you p {
 	margin: 50px;
+	font-size: 3vw;
 }
 
 .thank-you div {
@@ -317,4 +318,8 @@ body {
 .thank-you a {
 	color: #E8634E;
 	text-decoration: none;
+}
+
+.thank-you img {
+	margin: auto;
 }
