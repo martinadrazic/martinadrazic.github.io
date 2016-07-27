@@ -61,14 +61,15 @@ body {
 }
 
 .colon1 {
-	font-size: 6vW;
+	font-size: 95px;
 }
 
 .colon2 {
 	font-size: 4vW;
 }
 
-.colon1, .colon2 {
+.colon1, 
+.colon2 {
 	text-align: center;
 }
 
@@ -84,6 +85,12 @@ body {
 	margin-top: 40px;
 	position: absolute;
 	left: 0px;
+}
+
+#about, 
+#myportfolio, 
+#mycontact {
+	padding-top: 44px;
 }
 
 .line p {
@@ -326,4 +333,16 @@ body {
 
 .thank-you img {
 	margin: auto;
+}
+
+@media only screen and (max-width: 960px) {
+	.colon1 {
+		font-size: 45px;
+	}
+	
+	#about, 
+	#myportfolio, 
+	#mycontact {
+		padding-top: 92px;
+	}
 }
