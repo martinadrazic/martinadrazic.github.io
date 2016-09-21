@@ -32,12 +32,10 @@ body {
     margin: 0 auto;
 }
 
-
 .content .row {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-
 
 .image {
 	width: 100%;
@@ -138,7 +136,6 @@ body {
 	text-decoration: none;
 }
 
-
 .delimiter {
 	width: 30%;
     height: 1px;
@@ -180,7 +177,6 @@ body {
 	padding-right: 0px;
 }
 
-
 .description {
 	opacity: 0;
 	width: 100%;
@@ -194,7 +190,6 @@ body {
 
 }
 
-
 .description:hover, .description:focus {
 	background-color: black;
 	opacity: 0.7;
@@ -206,19 +201,17 @@ body {
     transition: opacity 400ms linear;
 }
 
-
-
-.slika1,
-.slika2,
-.slika3 {
+.image1,
+.image2,
+.image3 {
 	padding-left: 10px;
 	padding-right: 10px;
 	position: relative;
 }
 
-.slika1>div,
-.slika2>div,
-.slika3>div {
+.image1>div,
+.image2>div,
+.image3>div {
 	position: relative;
 }
 
@@ -259,13 +252,14 @@ body {
 	color: white;
 }
 
-
-
-.left-text, .center, .right-text p {
+.left-text, 
+.center, 
+.right-text p {
 	text-align: center;
 }
 
-.left-text a, .icons a {
+.left-text a, 
+.icons a {
 	color: #E5E2D3;
 }
 
