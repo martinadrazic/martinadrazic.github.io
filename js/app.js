@@ -1,6 +1,6 @@
 
 
-$(document).on('click', 'a', function(event){
+$('.header-top a').on('click', function(event){
     event.preventDefault();
 
     $('html, body').animate({
