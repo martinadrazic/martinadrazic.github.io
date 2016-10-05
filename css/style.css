@@ -5,7 +5,8 @@ body {
 
 .header {
 	background-color: #E8634E;
-}
+/*	height: 10%;
+*/}
 
 .header-top li {
 	display: inline-block;
@@ -304,6 +305,9 @@ body {
 
 .footer-bottom {
 	margin-top: 40px;
+	width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .title {
@@ -314,7 +318,7 @@ body {
 }
 
 .left-text, 
-.center, 
+.central-text, 
 .right-text p {
 	text-align: center;
 }
@@ -390,7 +394,7 @@ body {
 	margin: auto;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 990px) {
 	.colon1 {
 		font-size: 45px;
 	}
@@ -398,6 +402,39 @@ body {
 	#about, 
 	#myportfolio, 
 	#mycontact {
-		padding-top: 92px;
+		padding-top: 10px;
+	}
+
+	.sent-message, .message-field {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.image img {
+		margin: 130px auto 0px;
+	}
+
+	.prev, .next {
+		top: 120px;
+	}
+
+	.prev {
+		left: -20px;
+	}
+
+	.next {
+		right: -20px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+
+	.slideshow-container {
+		text-align: center;
+	}
+
+	.project img {
+	    width: 40%;
+	    margin: 0 auto;
 	}
 }
