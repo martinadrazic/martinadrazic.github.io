@@ -3,16 +3,14 @@ body {
 	font-family: 'Arvo', serif;
 }
 
-.header {
+.header, .footer {
 	background-color: #E8634E;
-/*	height: 10%;
-*/}
+}
 
 .header-top li {
 	display: inline-block;
 	list-style-type: none;
 	color: white;
-	text-align: center;
 	font-size: 17px;
 }
 
@@ -21,7 +19,11 @@ body {
 	padding-top: 10px;
 }
 
-.header-top a {
+.left-text a, 
+.icons a,
+.header-top a,
+.button p:hover,
+.button p:focus {
 	color: #F3F3F3;
 }
 
@@ -60,11 +62,6 @@ body {
 
 .colon2 {
 	font-size: 25px;
-}
-
-.colon1, 
-.colon2 {
-	text-align: center;
 }
 
 .about {
@@ -110,10 +107,6 @@ body {
 	text-align: center;
 	margin: 7px;
 	color: #E8634E;
-}
-
-.button p:hover, .button p:focus {
-	color: #F3F3F3;
 }
 
 .button a {
@@ -188,8 +181,6 @@ body {
 	cursor: pointer;
 	position: absolute;
 	top: 70px;
-	/*width: auto;
-	bottom: -160px;*/
 	color: #E8634E;
 	font-weight: bold;
 	font-size: 30px;
@@ -243,14 +234,8 @@ body {
 	position: relative;
 }
 
-
-
-
 .description h3 {
 	font-size: 25px;
-}
-
-.description p {
 }
 
 .description a {
@@ -267,14 +252,6 @@ body {
 	padding: 0px;
   color: #717171;
   font-size: 15px;
-}
-
-
-
-
-
-.footer {
-	background-color: #E8634E;
 }
 
 .line {
@@ -317,21 +294,6 @@ body {
 	color: white;
 }
 
-.left-text, 
-.central-text, 
-.right-text p {
-	text-align: center;
-}
-
-.left-text a, 
-.icons a {
-	color: #F3F3F3;
-}
-
-.icons {
-	text-align: center;
-}
-
 .mail {
 	color: white;
 	margin-bottom: 0px;
@@ -366,7 +328,6 @@ body {
 }
 
 .postnote {
-	text-align: center;
 	margin-top: 60px;
 	color: white;
 }
