@@ -64,6 +64,16 @@ body {
 	font-size: 25px;
 }
 
+#about p,
+#myportfolio p {
+	background-color: #F3F3F3;
+}
+
+#mycontact p {
+	background-color: #E8634E;
+	color: white
+}
+
 .about {
 	height: 2px;
 	width: 100%;
@@ -288,15 +298,19 @@ body {
     margin: 0 auto;
 }
 
+.location,
+.title,
+.mail {
+	color: white;
+}
+
 .title {
 	font-size: 20px;
 	margin-bottom: 30px;
 	margin-top: 30px;
-	color: white;
 }
 
 .mail {
-	color: white;
 	margin-bottom: 0px;
     margin-top: 20px;
 }
@@ -390,7 +404,6 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-
 	.slideshow-container {
 		text-align: center;
 	}
